@@ -8,7 +8,7 @@ const HomePage = () => {
     useEffect(() => {
         const getApiData=async()=>{
          try {
-           const res=await axios.get('https://newsapi.org/v2/top-headlines', {
+           const res=await axios.get('http://newsapi.org/v2/top-headlines', {
              params: {
                apiKey: API_KEY,
                country: 'in', 
