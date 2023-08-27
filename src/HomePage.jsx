@@ -32,7 +32,6 @@ const HomePage = () => {
                 return(
                  <div key={index} style={{width:'70%',height:'40vh'}}>
                     <h4>{item.title}</h4>
-                    <img src={item.urlToImage} alt="" width='50%' height='60%'/>
                  </div>
                 )
             })
